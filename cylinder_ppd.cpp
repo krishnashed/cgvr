@@ -49,11 +49,11 @@ void drawCircle(int x0, int y0, int r)
         drawPoints(x0, y0, x, y);
         if (p < 0)
         {
-            p = p + 2 * x + 6;
+            p = p + 4 * x + 6;
         }
         else
         {
-            p = p + 2 * (x - y) + 10;
+            p = p + 4 * (x - y) + 10;
             y--;
         }
         x++;

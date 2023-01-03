@@ -67,9 +67,9 @@ void res(int w, int h)
 int main(int argc, char **argv)
 {
     glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_DEPTH | GLUT_RGBA | GLUT_DOUBLE);
+    glutInitDisplayMode(GLUT_DEPTH | GLUT_RGB);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("No");
+    glutCreateWindow("Rotating cube");
     glutDisplayFunc(disp);
     glutIdleFunc(idle);
     glutReshapeFunc(res);
